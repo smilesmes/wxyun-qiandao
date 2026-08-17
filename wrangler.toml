@@ -1,0 +1,7 @@
+name = "wxyunpan-signin"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+# 每天北京时间 08:10 触发 (UTC 00:10)
+[triggers]
+crons = ["10 0 * * *"]

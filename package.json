@@ -1,0 +1,13 @@
+{
+  "name": "wxyunpan-auto-signin",
+  "version": "1.0.0",
+  "description": "无限云盘自动签到 (GitHub Actions / Cloudflare Workers)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": ["wxyunpan", "auto-signin"],
+  "license": "MIT"
+}
